@@ -1,0 +1,61 @@
+body {
+	background: rgb(236,160,182);
+	background: linear-gradient(3deg, rgba(236,160,182,1) 0%, rgba(161,230,227,1) 50%, rgba(250,251,164,1) 100%);
+	text-align: center;
+}
+h1 {
+	color:  #eca0b6;
+	font-size: 60px;
+	font-family: "Yeon Sung";
+}
+img{
+	width: 200px;
+	border-radius:50%;
+}
+h2{
+	color: #eca0b6;
+	font-family: "Odibee Sans";
+	font-size:40px;
+}
+.text{
+	color:#ffa372;
+	font-family:"Lobster";
+	font-size:30px;
+}
+.text li{
+	list-style-position: inside;
+}
+div{
+		background-color: #fafba4;
+		margin: 80px;
+		padding: 40px;
+		border-radius: 90px;
+}
+.Icons{
+	padding:10px;
+	list-style: none;
+}
+.Icons li{
+	display: inline-block;
+	list-style: none;
+	padding:20px;
+	padding-left: 50px;
+}
+.Icons i{
+	font-size: 50px;
+}
+@media (max-width:600px){
+	div{
+		width:300px;
+	}
+}
+@media (max-width:400px){
+	div{
+		width:200px;
+	}
+}
+@media (max-width:200px){
+	div{
+		width:100px;
+	}
+}
